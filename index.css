@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: permanentmarker;
+}
+.navbar{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    padding: 30px;
+    color:whitesmoke;
+    background: black;
+}
+.navbar ul li a{
+    color:whitesmoke;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+
+}
+.nav-links li{
+     margin: 0 30px;
+     font-weight: bold;
+     font-size: 20px;
+}
+ul{
+    list-style: none;
+}
+.menu-btn{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+    display: none;
+    
+    
+    
+}
+
+.navbar a{
+    text-decoration: none;
+}
+
+@media(max-width:850px) {
+    
+    
+    
+    .navbar{
+        padding:0;
+        height: 60px;
+    }
+    .logo{
+        position: absolute;
+        top: 20px;
+        left: 30px;
+        font-size: large;
+
+    }
+    .nav-links{
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        background: rgb(78, 78, 177);
+        margin-top: -900px;
+        transition: all 0.1s ease;
+    }
+    .nav-links li{
+        margin: 30px auto;
+
+    }
+    
+        
+        
+
+    
+
+    
+}
+.mobile-menu{
+    margin-top: 0px;
+    border-bottom-right-radius: 12%;
+    
+}
+@media(max-width:750px){
+    .menu-btn{
+        display: block;
+        /* top: 20px;
+        color: whitesmoke; */
+        width: 50px;
+        top: 10px;
+    }
+}
+
+
+
+
+
+
+header {
+    height: 100vh;
+    max-height: fit-content;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(https://www.romankoenigshofer.com/wp-content/uploads/2016/12/%C2%A9RomanKoenigshofer_Nepal_DSC04743.jpg);
+}
+
+@media(max-width:750px) {
+    header {
+        width: 100%;
+        height: 300px
+    }
+
+    button {
+        width: 50px;
+        height: 50px;
+        overflow: hidden;
+        
+
+
+    }
+    
+    
+
+    #item {
+        height: 200px;
+        width: 300px;
+        /* margin-top: 200px; */
+    }
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.head-content {
+    color: white;
+}
+
+.head-content h3 {
+    font-size: 4vmin;
+}
+
+.line {
+    width: 180px;
+    height: 4px;
+    background: crimson;
+    margin: 5px auto;
+    margin-left: 53px;
+    border-radius: 5px;
+}
+
+.head-content h1 {
+    font-size: 7vmin;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+button{
+    
+    width: 110px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 10px 10px;
+    font-weight: bold;
+    border: 1px solid crimson;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 10px;
+
+}
+.logo h1{
+    font-size: 5px;
+}
+
+
+.item-img {
+    width: 100%;
+    height: 250px;
+    margin-top: 50px;
+    border-radius: 50%;
+}
+
+.pkg h1 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: aqua;
+    font-size: 30px;
+    font-family: 'Permanent Marker', cursive;
+
+}
+
+.line2 {
+    width: 180px;
+    height: 4px;
+    background: crimson;
+    margin: 5px auto;
+    /* margin-left: 600px; */
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+    font-weight: 100;
+
+
+}
+
+.btn1 {
+    background: crimson;
+
+    border-radius: 30px;
+    height: 40px;
+    width: 70px;
+    margin-top: -11px;
+
+    padding: 5px;
+
+}
+
+.item-img2 {
+    width: 100%;
+    height: 250px;
+    margin-top: 50px;
+    border-radius: 50%;
+
+
+}
+
+.pkg-container {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 35px;
+
+
+
+}
+
+figure {
+    height: 300px;
+    width: 300px;
+
+}
+
+.btn2 {
+    background: crimson;
+    border-radius: 30px;
+    height: 40px;
+    width: 70px;
+    margin-top: -11px;
+    padding: 5px;
+}
+
+.item-img3 {
+    width: 100%;
+    height: 250px;
+    margin-top: 50px;
+    border-radius: 50%;
+
+}
+
+.btn3 {
+    background: crimson;
+    border-radius: 30px;
+    height: 40px;
+    width: 70px;
+    margin-top: 5px;
+    padding: 5px;
+
+}
+
+p {
+    font-size: 4vmin;
+    text-align: center;
+    color: orangered;
+    font-weight: 600;
+}
+
+.btn-center {
+    text-align: center;
+}
+
+
+img {
+    margin: 0 auto;
+    width: 100px;
+}
+
+figure:hover img {
+    filter: blur(3px);
+}
+
+figure::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    transition: 0.2s;
+
+}
+
+#item {
+    /* background: black; */
+    height: 130vh;
+    width: 100%;
+
+    background-image: url(https://cdn.wallpapersafari.com/77/54/8khZen.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.Gallery-section {
+    width: 100%;
+
+}
+
+.gallery-wrap {
+    padding-top: 10px;
+
+
+}
+
+.gallery-img {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.gallery {
+    width: 100%;
+    position: relative;
+
+}
+
+.image-section {
+    width: 100%;
+
+}
+
+@media(max-width:700px) {
+    .Gallery-section {
+
+        margin-top: 1700px;
+
+    }
+
+    .gallery-img {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
+
+
+.image-section img {
+    height: 250px;
+    width: 300px;
+    border: 1px solid green;
+    padding: 5px;
+    display: block;
+}
+
+.caption {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding: 15px;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+
+    opacity: 0;
+    transition: opacity 0.30s;
+    margin-left: 20px;
+}
+
+.caption p {
+    text-align: justify;
+    font-size: 8px;
+    color: whitesmoke;
+
+    width: 100px;
+
+
+}
+
+.caption h3 {
+    color: aqua;
+}
+
+.caption:hover {
+    opacity: 1;
+
+}
+
+.gal-content {
+    text-align: center;
+    margin-top: 1px;
+    margin-bottom: 5px;
+    color: aqua;
+    font-size: 10px;
+    padding: 80px;
+    padding-bottom: 1px;
+
+}
+
+.line3 {
+    width: 100px;
+    height: 4px;
+    background: crimson;
+    margin: 5px auto;
+
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+}
+.contact i{
+    width: 20px;
+
+}
+small{
+    margin-top: 10px;
+}
